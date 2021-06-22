@@ -6,8 +6,13 @@
 //
 
 import UIKit
+import SpriteKit
 
 class GameViewController: UIViewController {
+    
+    // MARK: - IBOulets
+    @IBOutlet var skView: SKView!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
