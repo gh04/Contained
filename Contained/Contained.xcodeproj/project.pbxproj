@@ -14,6 +14,7 @@
 		637C732F268179D60040F90E /* SKSpriteNode+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637C732E268179D60040F90E /* SKSpriteNode+Utility.swift */; };
 		6392C6ED26817A8500601E15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6392C6EC26817A8500601E15 /* AppDelegate.swift */; };
 		6392C6EF26817A9800601E15 /* Crab.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6392C6EE26817A9800601E15 /* Crab.xcassets */; };
+		6392C6F126817B3C00601E15 /* info.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6392C6F026817B3C00601E15 /* info.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		637C732E268179D60040F90E /* SKSpriteNode+Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKSpriteNode+Utility.swift"; sourceTree = "<group>"; };
 		6392C6EC26817A8500601E15 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6392C6EE26817A9800601E15 /* Crab.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Crab.xcassets; sourceTree = "<group>"; };
+		6392C6F026817B3C00601E15 /* info.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = info.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				637C73232681787D0040F90E /* LaunchScreen.storyboard */,
 				637C73262681787D0040F90E /* Info.plist */,
 				637C732E268179D60040F90E /* SKSpriteNode+Utility.swift */,
+				6392C6F026817B3C00601E15 /* info.storyboard */,
 			);
 			path = Contained;
 			sourceTree = "<group>";
@@ -129,6 +132,7 @@
 			files = (
 				637C73252681787D0040F90E /* LaunchScreen.storyboard in Resources */,
 				6392C6EF26817A9800601E15 /* Crab.xcassets in Resources */,
+				6392C6F126817B3C00601E15 /* info.storyboard in Resources */,
 				637C73222681787D0040F90E /* Assets.xcassets in Resources */,
 				637C73202681787D0040F90E /* Main.storyboard in Resources */,
 			);
