@@ -13,6 +13,14 @@ class GameViewController: UIViewController {
     // MARK: - IBOulets
     @IBOutlet var skView: SKView!
     
+    // MARK: - Properties
+    var skScene: CustomScene? = nil
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        skScene = CustomScene(size: view.bounds.size)
+        skView.presentScene(skScene)
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
